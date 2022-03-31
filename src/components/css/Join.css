@@ -1,0 +1,57 @@
+.form{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2196f3;
+    padding: 2rem;
+}
+.formBox{
+    padding: 10rem;
+    margin: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 2px 2px #fff,
+                inset 0px 0px 2px 2px #fff;
+}
+.nameInp{
+    width: 300px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+.submit{
+    margin: 1rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    background: rgb(151, 37, 151);
+    color: wheat;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 200px;
+}
+
+@media (max-width: 625px){
+    .formBox{
+        padding: 2rem;
+    }
+    .submit{
+        font-size: .89rem;
+    }
+}
+@media (max-width: 370px){
+    .formBox{
+        padding: 2rem 0.5rem;
+    }
+    .nameInp{
+        width: 200px;
+    }
+}

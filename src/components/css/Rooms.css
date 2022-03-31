@@ -1,0 +1,41 @@
+
+.roomPage .heading{
+    background: #fff;
+    padding: 1rem;
+}
+.roomAdd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addRoom a{
+    text-decoration: none;
+}
+.roomName{
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 5px 0px;
+    color: wheat;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 1s ease-in-out;
+}
+.roomName:hover{
+    background: #2196f3 !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

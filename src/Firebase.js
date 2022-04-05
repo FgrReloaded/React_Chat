@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDmHcxpdjmOU7E0KAxAr3lyRF9sL95bO04",
-  authDomain: "first-project-18ef8.firebaseapp.com",
-  databaseURL: "https://first-project-18ef8-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "first-project-18ef8",
-  storageBucket: "first-project-18ef8.appspot.com",
-  messagingSenderId: "963317650155",
-  appId: "1:963317650155:web:9a52e0eb9db9427c40e4ae"
+  apiKey: "Your_api_Key",
+  authDomain: "Your_auth_Domain",
+  databaseURL: "Your_database_URL",
+  projectId: "Your_project_Id",
+  storageBucket: "Your_storage_Bucket",
+  messagingSenderId: "Your_messaging_Sender_Id",
+  appId: "Your_app_Id"
 };
 
 const app = initializeApp(firebaseConfig);
